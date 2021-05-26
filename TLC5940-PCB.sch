@@ -46,28 +46,6 @@ F 3 "~" H 6450 2650 50  0001 C CNN
 	1    6450 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x07_Male IN
-U 1 1 60ADB4D9
-P 3950 3250
-F 0 "IN" H 4058 3731 50  0000 C CNN
-F 1 "Conn_01x07_Male" H 4058 3640 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3950 3250 50  0001 C CNN
-F 3 "~" H 3950 3250 50  0001 C CNN
-	1    3950 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x07_Male OUT
-U 1 1 60ADC47E
-P 4900 4550
-F 0 "OUT" H 4872 4574 50  0000 R CNN
-F 1 "Conn_01x07_Male" H 4872 4483 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4900 4550 50  0001 C CNN
-F 3 "~" H 4900 4550 50  0001 C CNN
-	1    4900 4550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 3150 6750 3150
 Wire Wire Line
@@ -142,7 +120,7 @@ U 1 1 60AFF198
 P 4250 2450
 F 0 "R1" V 4045 2450 50  0000 C CNN
 F 1 "R_Small_US" V 4136 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4250 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4250 2450 50  0001 C CNN
 F 3 "~" H 4250 2450 50  0001 C CNN
 	1    4250 2450
 	0    1    1    0   
@@ -315,7 +293,7 @@ U 1 1 60B8D703
 P 3750 1800
 F 0 "C1" V 3521 1800 50  0000 C CNN
 F 1 "C_Small" V 3612 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3750 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3750 1800 50  0001 C CNN
 F 3 "~" H 3750 1800 50  0001 C CNN
 	1    3750 1800
 	0    1    1    0   
@@ -341,5 +319,27 @@ F 2 "" H 3650 1800 50  0001 C CNN
 F 3 "" H 3650 1800 50  0001 C CNN
 	1    3650 1800
 	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x07_Male IN1
+U 1 1 60ADB4D9
+P 3950 3250
+F 0 "IN1" H 4058 3731 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 4058 3640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3950 3250 50  0001 C CNN
+F 3 "~" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x07_Male OUT1
+U 1 1 60ADC47E
+P 4900 4550
+F 0 "OUT1" H 4872 4574 50  0000 R CNN
+F 1 "Conn_01x07_Male" H 4872 4483 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4900 4550 50  0001 C CNN
+F 3 "~" H 4900 4550 50  0001 C CNN
+	1    4900 4550
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
